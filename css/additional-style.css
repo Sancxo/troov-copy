@@ -1,0 +1,16 @@
+section.jumbotron {
+    background: url("../Objet\ perdu\ dans\ metro.JPG") no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    background-position-x: 25%;
+    transform: scaleX(-1);
+}
+section.jumbotron h1 {
+    transform: scaleX(-1);
+    text-shadow: #343a40 0 1px,#343a40 1px 0, #343a40 0 -1px, #343a40 -1px 0;
+}
+
+::selection {
+    background-color: #28a745;
+    color: white;
+}
